@@ -9,7 +9,7 @@ export default function App() {
     const [confirmed, setConfirmed] = useState(false);
     const [name, setName] = useState("");
     const [cardNumber, setCardNumber] = useState("");
-    const [date, setDate] = useState("01/23");
+    const [date, setDate] = useState("");
     const [cvc, setCvc] = useState("");
     const [nameError, setNameError] = useState("");
     const [cardNumberError, setCardNumberError] = useState("");
